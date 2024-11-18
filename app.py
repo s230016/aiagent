@@ -3,7 +3,8 @@
 import streamlit as st
 
 # 1. 기계학습 모델 파일 로드
-
+df = pd.read_excel(/content/Medicaldataset 최종ㄱㅗㅗㅗ.xlsx)
+df.head()
 
 # 2. 모델 설명
  
