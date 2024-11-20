@@ -46,6 +46,6 @@ if st.button('여부 확인'):              # 사용자가 '합불분류' 버튼
         input_data = [[ a,b,c,d ]]          # 사용자가 입력한 a,b,c 를 input_data에 저장하고
         p = model._______(input_data)      # model이 분류한 값을 p에 저장한다
         if p[0] == 1 :
-              st.success('인공지능 분류 결과는 ___입니다')
+              st.success('인공지능 분류 결과는 양성입니다')
         else:
-              st.success('인공지능 분류 결과를 ____입니다')
+              st.success('인공지능 분류 결과를 음성입니다')
